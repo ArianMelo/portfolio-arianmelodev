@@ -91,12 +91,21 @@ input[type=submit]:hover {
   font-weight: 400;
 }
 
-.container-1 .topnav{
+.topnav{
   background-image: linear-gradient(to bottom right, #ff00ea, #0051ff);
   position: sticky;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
   border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.topnav a {
+  color: #fff;
+  font-weight: 500;
+  margin: 0 20px;
 }
 
 .form-1 {
@@ -108,10 +117,13 @@ input[type=submit]:hover {
   margin-bottom: 40px;
 }
 
+.container-1 {
+  padding-top: 50px;
+}
+
 .container-1 h1 {
   line-height: 36px;
   font-size: 2em;
-  margin-top: 50px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -134,7 +146,7 @@ input[type=submit]:hover {
 .container-2 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 60px;
 }
@@ -205,4 +217,71 @@ input[type=submit]:hover {
 
 .container-3 .logo-lang {
   background-position: center; background-repeat: no-repeat; background-size: contain;
+  cursor: pointer;
+}
+
+.container-3 .text-area {
+  padding: 20px;
+}
+
+.container-3 p {
+  font-size: 0.9em;
+}
+
+.container-3 h2 {
+  font-size: 1.8em;
+  border-left: 4px solid #fff;
+  padding-left: 10px;
+}
+
+.container-3 .text-area p, .container-3 .text-area h2 {
+  margin-bottom: 20px;
+}
+
+.container-3 .arrow-down {
+  display: flex;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* CONTAINER 4 */
+
+.container-4 {
+  padding: 40px 20px;
+}
+
+.container-4 ul {
+  list-style-type: none;
+}
+
+.container-4 ul li {
+  background-color: #eee;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 400px;
+  margin-bottom: 40px;
+  box-shadow: #b1b1b1 1px 1px 20px;
+  padding-bottom: 20px;
+}
+
+.container-4 ul li img {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  width: 100%;
+}
+
+.container-4 ul li .text-area {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.container-4 ul li button {
+  display: flex;
+  padding: 10px 20px;
+  margin: auto;
 }
