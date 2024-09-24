@@ -10,7 +10,6 @@
   }
 
   .container-2 .arrow-down img{
-    background: red;
     filter: invert(50%) sepia(100%) saturate(425%) hue-rotate(153deg) brightness(96%) contrast(99%);
   }
 }
