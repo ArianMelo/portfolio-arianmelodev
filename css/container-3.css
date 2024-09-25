@@ -4,6 +4,7 @@
   color: #fff;
   background-image: linear-gradient(to bottom right, rgb(255, 0, 234), rgb(0, 81, 255));
   padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .container-3 ul {

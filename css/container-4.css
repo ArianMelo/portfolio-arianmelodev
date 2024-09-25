@@ -51,6 +51,12 @@
 }
 
 .container-4 ul li .text-area p {
+  background-color: #f8f8f8;
+  height: 200px;
+  overflow: auto;
+  scrollbar-color: #0051ff;
+  border-radius: 10px;
+  padding: 5px;
   text-transform: lowercase;
   color: #7b7b7b;
 }
@@ -72,4 +78,11 @@
 
 .container-4 ul li button:hover {
   background-image: linear-gradient(to bottom right, rgb(0, 255, 60), rgb(0, 255, 47));
+}
+
+.container-4 .arrow-down {
+  display: flex;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
