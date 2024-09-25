@@ -3,8 +3,10 @@
 .container-3 {
   color: #fff;
   background-image: linear-gradient(to bottom right, rgb(255, 0, 234), rgb(0, 81, 255));
-  padding-bottom: 40px;
-  padding: 40px 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .container-3 ul {

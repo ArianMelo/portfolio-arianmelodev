@@ -1,0 +1,19 @@
+/* TOPNAV */
+.topnav{
+  background-image: linear-gradient(to bottom right, #ff00ea, #0051ff);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.topnav a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8em;
+  margin: 0 20px;
+}

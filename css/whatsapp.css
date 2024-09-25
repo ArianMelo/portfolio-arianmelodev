@@ -1,0 +1,26 @@
+.whatsapp {
+  background-image: linear-gradient(to bottom right, rgb(0, 255, 60), rgb(0, 255, 47));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.whatsapp img {
+  width: 5vh;
+  margin-left: 20px;
+}
+
+.whatsapp h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #fff;
+}

@@ -1,7 +1,10 @@
 /* CONTAINER 4 */
 
 .container-4 {
-  padding: 40px 20px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .container-4 h2 {
@@ -17,14 +20,19 @@
 }
 
 .container-4 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
 .container-4 ul li {
   background-color: #eee;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 0 auto;
-  width: 280px;
+  width: auto;
   margin-bottom: 40px;
   box-shadow: #7b7b7b 1px 1px 20px;
   padding-bottom: 20px;

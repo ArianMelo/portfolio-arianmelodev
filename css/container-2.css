@@ -6,6 +6,8 @@
   flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 60px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .container-2 .foto-perfil {
@@ -13,7 +15,7 @@
   margin: 0 auto;
   margin-bottom: 40px;
   width: 100%;
-  max-width: 300px;
+  max-width: 360px;
   border-radius: 50%;
 }
 
