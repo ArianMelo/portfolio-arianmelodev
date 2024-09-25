@@ -1,0 +1,43 @@
+/* CONTAINER 2 */
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.container-2 .foto-perfil {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.container-2 .text-area {
+  padding: 20px;
+}
+
+.container-2 .arrow-down {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.container-2 h2 {
+  font-size: 1.8em;
+  color: #1f1f1f;
+  border-left: 4px solid #ff00ea;
+  padding-left: 10px;
+}
+
+.container-2 p {
+  font-size: 0.9em;
+  color: #3b3b3b;
+}
+
+.container-2 .text-area p, .container-2 .text-area h2 {
+  margin-bottom: 20px;
+}
