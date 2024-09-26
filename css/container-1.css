@@ -12,6 +12,34 @@
   font-weight: 500;
 }
 
+.container-1 button {
+  background-image: linear-gradient(to bottom right, rgb(0, 255, 60), rgb(0, 255, 47));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container-1 button:hover {
+  background-image: linear-gradient(to bottom right, rgb(38, 255, 89), rgb(47, 255, 85));
+}
+
+.container-1 button img {
+  width: 40px;
+  padding-left: 10px;
+}
+
+
 .container-1 label {
   color: #4e4e4e;
   font-weight: 400;

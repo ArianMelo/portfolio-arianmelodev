@@ -28,7 +28,7 @@
   .container-2 .text-area, .container-2 .foto-perfil {
     width: 50%;
   }
-
+/*
   .whatsapp {
     flex-direction: column;
     width: auto;
@@ -53,5 +53,5 @@
     margin-bottom: 5px;
     color: #fff;
   }
-
+*/
 }
