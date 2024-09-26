@@ -40,6 +40,10 @@
   color: #3b3b3b;
 }
 
+.container-2 strong {
+  color: #0051ff; 
+}
+
 .container-2 .text-area p, .container-2 .text-area h2 {
   margin-bottom: 20px;
 }

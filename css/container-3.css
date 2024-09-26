@@ -3,7 +3,7 @@
 .container-3 {
   color: #fff;
   background-image: linear-gradient(to bottom right, rgb(255, 0, 234), rgb(0, 81, 255));
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 60px;
   padding-left: 4%;
   padding-right: 4%;
@@ -48,6 +48,10 @@
   font-size: 1.8em;
   border-left: 4px solid #fff;
   padding-left: 10px;
+}
+
+.container-3 strong {
+  color: #fff; 
 }
 
 .container-3 .text-area p, .container-3 .text-area h2 {

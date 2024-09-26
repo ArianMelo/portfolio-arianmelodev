@@ -1,17 +1,55 @@
 /* TOPNAV */
-.topnav{
+.topnav {
   background-image: linear-gradient(to bottom right, #ff00ea, #0051ff);
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   top: 0;
   border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+
 }
 
-.topnav a {
+.topnav button {
+  background-image: linear-gradient(to bottom right, #ff00ea, #0051ff);
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.topnav button img {
+  width: 20px;
+}
+
+
+.topnav .links {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.topnav .links a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.topnav .links a:hover {
+  color: #0051ff;
+  background-color: #fff;
+  border-top: 1px solid #2a2a2a;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.topnav .links a {
   color: #fff;
   font-weight: 500;
   font-size: 0.8em;

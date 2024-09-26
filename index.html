@@ -22,7 +22,7 @@
   <title>Portfólio</title>
 </head>
 <body>
-  <a href="whats">
+  <a href="https://wa.me/5583994108612" target="_blank">
     <div class="whatsapp">
       <h3>Entre em contato</h3>
       <img src="img/whatsapp.png" alt="whatsapp">
@@ -30,10 +30,13 @@
   </a>
   <!-- MENU DE NAVEGAÇÃO -->
   <nav class="topnav">
-    <a href="#">Sobre Mim</a>
-    <a href="#">Habilidade</a>
-    <a href="#">Projetos</a>
-    <a href="#" style="float: right;">Contato</a>
+    <button id="btnMenu" onclick="menuOpen()"><img src="img/menu-aberto.png" alt="botão menu"></button>
+    <div id="menuLinks" class="links">
+      <a href="#point1">Sobre Mim</a>
+      <a href="#point2">Habilidade</a>
+      <a href="#point3">Projetos</a>
+      <a href="#" style="float: right;">Contato</a>
+    </div>
   </nav>
   <!-- MENU RESPONSIVO -->
 
@@ -63,19 +66,28 @@
   </section>
   <!-- CONTAINER 2 -->
   <section class="container-2">
+    <span id="point1"></span>
     <div class="row">
-      <img class="foto-perfil" src="img/foto-perfil-modelo.avif" alt="foto de perfil">
+      <img class="foto-perfil" src="img/arianmelo1.png" alt="foto de perfil">
       <div class="text-area">
         <h2>Quem sou</h2>
         <p>Olá, eu sou <strong>Arian</strong>, programador especializado em soluções digitais!</p>
-        <p>Desenvolvo sites e aplicativos sob medida para seus negócios, focando em performance, design <strong>responsivo</strong> e funcionalidade intuitiva.</p>
-        <p>Seja para uma landing page simples ou uma plataforma web robusta, entrego código de alta qualidade e soluções escaláveis.</p>
+        <p>
+          Desenvolvo <strong>sites</strong> e <strong>aplicativos</strong> sob medida para seus negócios, focando em performance, design <strong>responsivo</strong> e funcionalidade <strong>intuitiva</strong>. Seja para uma landing page simples ou uma plataforma web robusta, entrego código de alta qualidade e soluções escaláveis.
+        </p>
+        <p>
+          Durante o curso, aprimorei habilidades em linguagens de programação como <strong>Java, HTML, CSS, PHP, e JavaScript</strong>, além de me envolver em projetos que exigiram o uso de frameworks modernos e práticas de desenvolvimento ágil.
+        </p>
+        <p>
+          Como estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, adquiri um sólido conhecimento em diversas áreas da tecnologia, com foco em desenvolvimento de software, banco de dados, e gerenciamento de projetos.
+        </p>
       </div>
     </div>  
     <img src="img/seta-para-baixo-azul.png" alt="" class="arrow-down" style="display: block;">
   </section>
   <!-- CONTAINER 3 -->
   <section class="container-3">
+    <span id="point2"></span>
     <ul>
       <li>
         <a class="logo-lang" style="background-image: url(img/html.png);"></a>
@@ -105,6 +117,7 @@
     </div>
   </section>
   <section class="container-4">
+    <span id="point3"></span>
     <h2>Projetos</h2>
     <ul>
       <li>
@@ -138,12 +151,18 @@
   </section>
   <!-- FOOTER -->
   <footer class="footer">
-    <h2></h2>
-    <p><a href="#">Arian &copy Todos os direitos reservados.</a></p>
+    <div class="links">
+      <a href="#point1">Sobre Mim</a>
+      <a href="#point2">Habilidade</a>
+      <a href="#point3">Projetos</a>
+      <a href="#" style="float: right;">Contato</a>
+    </div>
+    <p><a href="#">2024 &copy Todos os direitos reservados.</a></p>
   </footer>
 
-
   <!-- MENU OVERLAY -->
+
+  <script src="js/menu-overlay.js"></script>
 
 </body>
 </html>
