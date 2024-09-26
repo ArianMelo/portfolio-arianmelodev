@@ -41,6 +41,7 @@
   display: flex;
   width: 100%;
   max-width: 400px;
+  max-height: 400px;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
@@ -92,4 +93,25 @@
   width: 40px;
   margin: 0 auto;
   margin-top: 40px;
+}
+
+.container-4 .project-span {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2ae9;
+  height: 100%;
+  width: 100%;
+  z-index: 40;
+}
+
+.container-4 .iframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 80%;
 }

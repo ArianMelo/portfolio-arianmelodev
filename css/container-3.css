@@ -9,6 +9,8 @@
   padding-right: 4%;
 }
 
+/* CONTAINER-3 LISTA */
+
 .container-3 ul {
   list-style-type: none;
   display: flex;
@@ -31,10 +33,14 @@
   margin: 20px 10px;
 }
 
+/* CONTAINER-3 LOGOS */
+
 .container-3 .logo-lang {
   background-position: center; background-repeat: no-repeat; background-size: contain;
   cursor: pointer;
 }
+
+/* CONTAINER-3 AREA DE TEXTO */
 
 .container-3 .text-area {
   padding: 20px;
@@ -57,6 +63,8 @@
 .container-3 .text-area p, .container-3 .text-area h2 {
   margin-bottom: 20px;
 }
+
+/* CONTAINER-3 SETA PARA BAIXO */
 
 .container-3 .arrow-down {
   display: flex;
