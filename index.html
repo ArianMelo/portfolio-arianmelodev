@@ -48,19 +48,19 @@
     <button>Entre em contato<img src="img/whatsapp.png" alt="botão whatsapp"></button>
     </a>
     <!-- FORMULARIO PRINCIPAL -->
-    <form class="form-1" action="/action_page.php" style="display: none;">
+    <form class="form" action="http://localhost/portfolio-db/php/index.php" method="POST" style="display: block;">
 
       <label for="fname">Nome</label>
-      <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+      <input type="text" id="fname" name="fname" placeholder="Seu nome..." required>
 
       <label for="lname">Sobrenome</label>
-      <input type="text" id="lname" name="lastname" placeholder="Seu melhor email...">
+      <input type="text" id="lname" name="lname" placeholder="Seu sobrenome..." required>
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Seu melhor email...">
+      <input type="email" id="email" name="email" placeholder="Seu melhor email..." required>
 
       <label for="telnumber">Telefone</label>
-      <input type="tel" id="telnumber" name="telnumber" placeholder="(+55)">
+      <input type="tel" id="telnumber" name="telnumber" placeholder="(+55)" title="Número de telefone no formato correto (+55 99 9999-9999)" required>
 
       <input type="submit" value="Enviar">
     </form>
